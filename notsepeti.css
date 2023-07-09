@@ -1,0 +1,104 @@
+:root{
+    --main-color:rgba(26, 188, 156,1.0);
+    --main-color-light:rgba(26, 188, 156,0.5);
+    --accent-color:rgba(231, 76, 60,1.0);
+    --accent-color-light:rgba(231, 76, 60,0.5);
+    }
+
+
+
+body{
+    font-family: 'Dancing Script', cursive;
+background-image: linear-gradient(to bottom right, var(--main-color), var(--accent-color));
+background-repeat: no-repeat;
+min-height: 100vh;
+
+}
+
+.main-title {
+    font-size: 15vh;
+}
+
+
+.header, .gorev-form {
+    margin: 0.5rem;
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-item {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    border: none;
+    background-color: white;
+    outline: none;
+    min-width: 100vh;
+}
+
+
+
+.btn-gorev-ekle {
+    color: var(--accent-color);
+    cursor: pointer;
+    min-width: 10vh;
+}
+
+.btn-gorev-ekle:hover {
+    color: white;
+    background-color: var(--accent-color);
+}
+
+.gorev-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gorev-listesi {
+    list-style: none;
+    min-width: 70%;
+}
+
+.gorev-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem;
+    padding: 0.1rem;
+    font-size: 1.2rem;
+    background-color: white;
+    transition: 0.5s ease-in-out;
+
+}
+
+.gorev-tanim {
+    flex: 1;
+    padding: 1rem;
+
+}
+
+.gorev-btn {
+    border: none;
+    outline: none;
+    background-color: var(--accent-color);
+    padding: 1.5rem;
+    font-size: 1.2rem;
+
+}
+.gorev-btn-sil {
+    background-color: var(--main-color);
+}
+
+.gorev-tamamlandi {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.fa-solid {
+    pointer-events: none;
+}
+
+.kaybol {
+    transform: scale(0);
+}
