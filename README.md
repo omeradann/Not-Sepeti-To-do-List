@@ -1,2 +1,2 @@
 # Not Sepeti To-do List
- A great application to keep your notes
+A great app for keeping your notes. Task completion and deletion options available 
